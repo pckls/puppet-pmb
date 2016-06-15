@@ -1,0 +1,4 @@
+---
+fixtures:
+  symlinks:
+    pmb: "#{source_dir}"
