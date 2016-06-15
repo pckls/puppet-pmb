@@ -5,92 +5,90 @@ branches:
     - master
 notifications:
   email: false
-gemfile:
-  - .gemfile
 matrix:
   include:
     # https://docs.puppet.com/pe/latest/overview_version_table.html
 
     # PE 2016.1.2
     - rvm: 2.1.9
-        gemfile: .gemfile
-        env: PUPPET_VERSION=4.4.2
+      gemfile: .gemfile
+      env: PUPPET_VERSION=4.4.2
     # PE 2016.1.1
     - rvm: 2.1.8
-        gemfile: .gemfile
-        env: PUPPET_VERSION=4.4.1
+      gemfile: .gemfile
+      env: PUPPET_VERSION=4.4.1
 
     # PE 2015.3.2 & 2015.3.3
     - rvm: 2.1.8
-        gemfile: .gemfile
-        env: PUPPET_VERSION=4.3.2
+      gemfile: .gemfile
+      env: PUPPET_VERSION=4.3.2
     # PE 2015.3.0 & 2015.3.1
     - rvm: 2.1.7
-        gemfile: .gemfile
-        env: PUPPET_VERSION=4.3.1
+      gemfile: .gemfile
+      env: PUPPET_VERSION=4.3.1
     # PE 2015.2.3
     - rvm: 2.1.7
-        gemfile: .gemfile
-        env: PUPPET_VERSION=4.2.3
+      gemfile: .gemfile
+      env: PUPPET_VERSION=4.2.3
     # PE 2015.2.1 & 2015.2.2
     - rvm: 2.1.6
-        gemfile: .gemfile
-        env: PUPPET_VERSION=4.2.2
+      gemfile: .gemfile
+      env: PUPPET_VERSION=4.2.2
     # PE 2015.2.0
     - rvm: 2.1.6
-        gemfile: .gemfile
-        env: PUPPET_VERSION=4.2.1
+      gemfile: .gemfile
+      env: PUPPET_VERSION=4.2.1
 
     # PE 3.8.5
     - rvm: 2.1.7
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.8.7
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.8.7
     - rvm: 1.9.3.551
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.8.7
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.8.7
     # PE 3.8.4
     - rvm: 2.1.7
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.8.5
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.8.5
     - rvm: 1.9.3.551
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.8.5
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.8.5
     # PE 3.8.3 & 3.8.3.1
     - rvm: 2.1.7
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.8.4
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.8.4
     - rvm: 1.9.3.551
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.8.4
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.8.4
     # PE 3.8.2 & 3.8.2.1
     - rvm: 2.1.6
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.8.2
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.8.2
     - rvm: 1.9.3.551
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.8.2
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.8.2
     # PE 3.8.0 & 3.8.1
     - rvm: 2.1.6
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.8.1
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.8.1
     - rvm: 1.9.3.551
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.8.1
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.8.1
     # Puppet 3.8.0 is not available as a Gem :/
     # PE 3.8.0
     # - rvm: 1.9.3.551
-    #    gemfile: .gemfile
-    #    env: PUPPET_VERSION=3.8.0
+    #   gemfile: .gemfile
+    #   env: PUPPET_VERSION=3.8.0
 
     # PE 3.7.2
     - rvm: 1.9.3.484
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.7.4
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.7.4
     # PE 3.7.1
     - rvm: 1.9.3.484
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.7.3
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.7.3
     # PE 3.7.0
     - rvm: 1.9.3.484
-        gemfile: .gemfile
-        env: PUPPET_VERSION=3.7.2
+      gemfile: .gemfile
+      env: PUPPET_VERSION=3.7.2
