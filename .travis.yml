@@ -43,52 +43,52 @@ matrix:
     - rvm: 2.1.7
       gemfile: .gemfile
       env: PUPPET_VERSION=3.8.7
-    - rvm: 1.9.3.551
+    - rvm: 1.9.3-p551
       gemfile: .gemfile
       env: PUPPET_VERSION=3.8.7
     # PE 3.8.4
     - rvm: 2.1.7
       gemfile: .gemfile
       env: PUPPET_VERSION=3.8.5
-    - rvm: 1.9.3.551
+    - rvm: 1.9.3-p551
       gemfile: .gemfile
       env: PUPPET_VERSION=3.8.5
     # PE 3.8.3 & 3.8.3.1
     - rvm: 2.1.7
       gemfile: .gemfile
       env: PUPPET_VERSION=3.8.4
-    - rvm: 1.9.3.551
+    - rvm: 1.9.3-p551
       gemfile: .gemfile
       env: PUPPET_VERSION=3.8.4
     # PE 3.8.2 & 3.8.2.1
     - rvm: 2.1.6
       gemfile: .gemfile
       env: PUPPET_VERSION=3.8.2
-    - rvm: 1.9.3.551
+    - rvm: 1.9.3-p551
       gemfile: .gemfile
       env: PUPPET_VERSION=3.8.2
     # PE 3.8.0 & 3.8.1
     - rvm: 2.1.6
       gemfile: .gemfile
       env: PUPPET_VERSION=3.8.1
-    - rvm: 1.9.3.551
+    - rvm: 1.9.3-p551
       gemfile: .gemfile
       env: PUPPET_VERSION=3.8.1
     # Puppet 3.8.0 is not available as a Gem :/
     # PE 3.8.0
-    # - rvm: 1.9.3.551
+    # - rvm: 1.9.3-p551
     #   gemfile: .gemfile
     #   env: PUPPET_VERSION=3.8.0
 
     # PE 3.7.2
-    - rvm: 1.9.3.484
+    - rvm: 1.9.3-p484
       gemfile: .gemfile
       env: PUPPET_VERSION=3.7.4
     # PE 3.7.1
-    - rvm: 1.9.3.484
+    - rvm: 1.9.3-p484
       gemfile: .gemfile
       env: PUPPET_VERSION=3.7.3
     # PE 3.7.0
-    - rvm: 1.9.3.484
+    - rvm: 1.9.3-p484
       gemfile: .gemfile
       env: PUPPET_VERSION=3.7.2
