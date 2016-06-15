@@ -5,6 +5,8 @@ branches:
     - master
 notifications:
   email: false
+gemfile:
+  - .gemfile
 matrix:
   include:
     # https://docs.puppet.com/pe/latest/overview_version_table.html
